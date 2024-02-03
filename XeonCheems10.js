@@ -6627,23 +6627,23 @@ break
    │✑  Please Type The *MENU*
    │✑  Given *BELOW*
 ┌└─────────────┈ ⳹
-♱${xprefix}allmenu
-♱${xprefix}downloadmenu
-♱${xprefix}funmenu
-♱${xprefix}aimenu
-♱${xprefix}groupmenu
-♱${xprefix}ownermenu
-♱${xprefix}photooxymenu
-♱${xprefix}ephoto360menu
-♱${xprefix}animemenu
-♱${xprefix}nsfwmenu
-♱${xprefix}randomphotomenu
-♱${xprefix}randomvideomenu
-♱${xprefix}stickermenu
-♱${xprefix}databasemenu
-♱${xprefix}stalkermenu
-♱${xprefix}bugmenu
-♱${xprefix}othermenu
+│${xprefix}allmenu
+│${xprefix}downloadmenu
+│${xprefix}funmenu
+│${xprefix}aimenu
+│${xprefix}groupmenu
+│${xprefix}ownermenu
+│${xprefix}photooxymenu
+│${xprefix}ephoto360menu
+│${xprefix}animemenu
+│${xprefix}nsfwmenu
+│${xprefix}randomphotomenu
+│${xprefix}randomvideomenu
+│${xprefix}stickermenu
+│${xprefix}databasemenu
+│${xprefix}stalkermenu
+│${xprefix}bugmenu
+│${xprefix}othermenu
 └─────────────────┈ ⳹`
 if (typemenu === 'v8') {
                     XeonBotInc.sendMessage(m.chat, {
