@@ -50,7 +50,7 @@ global.mess = {
     success: 'Here you go!'
 }
 //thumbnail
-global.thumb = fs.readFileSync('./XeonMedia/theme/xliconpic.jpg')
+global.thumb = fs.readFileSync('./XeonMedia/theme/cheemspic.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
