@@ -1,7 +1,7 @@
 {
-    "name": "Cheems-Bot-MD",
-    "version": "10.0.0",
-    "description": "Whatsapp Bot By DGXeon",
+    "name": "Vortex-99",
+    "version": "4.4.4",
+    "description": "ＷㅤＨㅤＩㅤＴㅤＥ  V  O  R  T  E  X  9  9",
     "main": "index.js",
     "type": "commonjs",
     "directories": {
@@ -13,7 +13,7 @@
         "code": "node main.js",
         "start": "node index.js"
     },
-    "author": "DGXeon",
+    "author": "ＷㅤＨㅤＩㅤＴㅤＥㅤ４ㅤ４ㅤ４  ?  ?",
     "license": "MIT",
     "dependencies": {
         "@whiskeysockets/baileys": "^6.6.0",
