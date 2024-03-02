@@ -43,7 +43,7 @@
       "antilink": false,
       "antilinkgc": false
     },
-    "923184070915@s.whatsapp.net": {
+    "918360234087@s.whatsapp.net": {
       "badword": false,
       "antiforeignnum": false,
       "antibot": false,
@@ -61,7 +61,7 @@
       "antilink": false,
       "antilinkgc": false
     },
-    "923184070915@s.whatsapp.net": {
+    "918360234087@s.whatsapp.net": {
       "badword": false,
       "antiforeignnum": false,
       "antibot": false,
@@ -84,7 +84,7 @@
     "math": []
   },
   "settings": {
-    "923184070915@s.whatsapp.net": {
+    "918360234087@s.whatsapp.net": {
       "totalhit": 49,
       "totalError": 0,
       "online": false,
@@ -100,17 +100,17 @@
       "autorecord": false,
       "autotype": false,
       "watermark": {
-        "packname": "Sticker By",
-        "author": "🦄드림 가이 Xeon\n\n+916909137213"
+        "packname": "Powered by",
+        "author": "Vortex 99"
       },
       "about": {
         "bot": {
           "nick": "Oke",
-          "alias": "XLICON-V3-MD"
+          "alias": "Vortex-99"
         },
         "owner": {
-          "nick": "+923184070915",
-          "alias": "923184070915"
+          "nick": "+918360234087",
+          "alias": "W H I T E 4 4 4  ? ?"
         }
       }
     }
