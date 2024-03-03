@@ -549,12 +549,12 @@ return build_server + data.image
 //bug loading
 async function loading () {
 var xeonlod = [
-"《 █▒▒▒▒▒▒▒▒▒▒▒》10%",
-"《 ████▒▒▒▒▒▒▒▒》30%",
-"《 ███████▒▒▒▒▒》50%",
-"《 ██████████▒▒》80%",
-"《 ████████████》100%",
-"𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 🦄..."
+"  █▒▒▒▒▒▒▒▒▒▒▒ 10%",
+"  ████▒▒▒▒▒▒▒▒ 30%",
+"  ███████▒▒▒▒▒ 50%",
+"  ██████████▒▒ 80%",
+"  ████████████ 100%",
+"𝙻𝙾𝙰𝙳𝙴𝙳 ⚙️"
 ]
 let { key } = await XeonBotInc.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'})
 
@@ -6595,12 +6595,12 @@ break
             let a = db.data.users[sender]
             let me = m.sender
             let xmenu_oh = `┌─❖
-│ Hi 👋 
+│ 𝙂𝙍𝙀𝙀𝙏𝙄𝙉𝙂𝙎⛓️ 
 └┬❖  ${pushname} 
-┌┤✑  ${xeonytimewisher} 😄${readmore} 
+┌┤✑  ${xeonytimewisher} 💠 ${readmore} 
 │└────────────┈ ⳹
 │
-└─ 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 
+└─ 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝙏𝙄𝙊𝙉
 │𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 │𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
 │𝗕𝗼𝘁 : ${botname}
@@ -6613,7 +6613,7 @@ break
 │𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${global.db.data.settings[botNumber].totalhit} Hit
 │𝗧𝗼𝘁𝗮𝗹 𝗖𝗵𝗮𝘁 : ${Object.keys(global.db.data.chats).length} Chat/Gc
 │
-└─ 𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊
+└─ 𝙐𝙎𝙀𝙍 𝙂𝙀𝙉𝙀𝙍𝘼𝙇
 │𝗡𝗮𝗺𝗲 : ${pushname}
 │𝗡𝘂𝗺𝗯𝗲𝗿 : +${me.split('@')[0]}
 │𝗟𝗶𝗺𝗶𝘁 : ${a.limit}
@@ -6624,8 +6624,8 @@ break
 │𝗧𝗶𝗺𝗲 : ${xtime}
 │𝗗𝗮𝘁𝗲 : ${xdate}
 └┬───────────────── ⳹
-   │✑  Please Type The *MENU*
-   │✑  Given *BELOW*
+ │✑  Type The *PROMPT*
+ │✑  To access *COMMANDS*
 ┌└─────────────┈ ⳹
 │${xprefix}allmenu
 │${xprefix}downloadmenu
@@ -6755,7 +6755,7 @@ if (typemenu === 'v8') {
 }
 break
             case 'allmenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${allmenu(prefix, hituet)}`
+let xmenu_oh = `𝙂𝙍𝙀𝙀𝙏𝙄𝙉𝙂𝙎⛓️  ${pushname}${readmore}\n\n${allmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -6866,7 +6866,7 @@ if (typemenu === 'v1') {
 }
 break
             case 'ownermenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${ownermenu(prefix, hituet)}`
+let xmenu_oh = `𝙂𝙍𝙀𝙀𝙏𝙄𝙉𝙂𝙎⛓️  ${pushname}${readmore}\n\n${ownermenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -6977,7 +6977,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'othermenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${othermenu(prefix, hituet)}`
+let xmenu_oh = `𝙂𝙍𝙀𝙀𝙏𝙄𝙉𝙂𝙎⛓️  ${pushname}${readmore}\n\n${othermenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -7088,7 +7088,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'downloadmenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${downloadmenu(prefix, hituet)}`
+let xmenu_oh = `𝙂𝙍𝙀𝙀𝙏𝙄𝙉𝙂𝙎⛓️  ${pushname}${readmore}\n\n${downloadmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -7199,7 +7199,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'groupmenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${groupmenu(prefix, hituet)}`
+let xmenu_oh = `𝙂𝙍𝙀𝙀𝙏𝙄𝙉𝙂𝙎⛓️  ${pushname}${readmore}\n\n${groupmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -7310,7 +7310,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'funmenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${funmenu(prefix, hituet)}`
+let xmenu_oh = `𝙂𝙍𝙀𝙀𝙏𝙄𝙉𝙂𝙎⛓️  ${pushname}${readmore}\n\n${funmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -7421,7 +7421,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'stalkermenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${stalkermenu(prefix, hituet)}`
+let xmenu_oh = `𝙂𝙍𝙀𝙀𝙏𝙄𝙉𝙂𝙎⛓️  ${pushname}${readmore}\n\n${stalkermenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -7532,7 +7532,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'randomphotomenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${randphotomenu(prefix, hituet)}`
+let xmenu_oh = `𝙂𝙍𝙀𝙀𝙏𝙄𝙉𝙂𝙎⛓️  ${pushname}${readmore}\n\n${randphotomenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -7643,7 +7643,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'randomvideomenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${randvideomenu(prefix, hituet)}`
+let xmenu_oh = `𝙂𝙍𝙀𝙀𝙏𝙄𝙉𝙂𝙎⛓️  ${pushname}${readmore}\n\n${randvideomenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -7754,7 +7754,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'photooxymenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${photooxymenu(prefix, hituet)}`
+let xmenu_oh = `𝙂𝙍𝙀𝙀𝙏𝙄𝙉𝙂𝙎⛓️  ${pushname}${readmore}\n\n${photooxymenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -7865,7 +7865,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'ephoto360menu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${ephoto360menu(prefix, hituet)}`
+let xmenu_oh = `𝙂𝙍𝙀𝙀𝙏𝙄𝙉𝙂𝙎⛓️  ${pushname}${readmore}\n\n${ephoto360menu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -7976,7 +7976,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'nsfwmenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${nsfwmenu(prefix, hituet)}`
+let xmenu_oh = `𝙂𝙍𝙀𝙀𝙏𝙄𝙉𝙂𝙎⛓️  ${pushname}${readmore}\n\n${nsfwmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -8087,7 +8087,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'animemenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${animemenu(prefix, hituet)}`
+let xmenu_oh = `𝙂𝙍𝙀𝙀𝙏𝙄𝙉𝙂𝙎⛓️  ${pushname}${readmore}\n\n${animemenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -8198,7 +8198,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'stickermenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${stickermenu(prefix, hituet)}`
+let xmenu_oh = `𝙂𝙍𝙀𝙀𝙏𝙄𝙉𝙂𝙎⛓️  ${pushname}${readmore}\n\n${stickermenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -8309,7 +8309,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'databasemenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${databasemenu(prefix, hituet)}`
+let xmenu_oh = `𝙂𝙍𝙀𝙀𝙏𝙄𝙉𝙂𝙎⛓️  ${pushname}${readmore}\n\n${databasemenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -8420,7 +8420,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'aimenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${aimenu(prefix, hituet)}`
+let xmenu_oh = `𝙂𝙍𝙀𝙀𝙏𝙄𝙉𝙂𝙎⛓️  ${pushname}${readmore}\n\n${aimenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -8531,7 +8531,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'bugmenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${bugmenu(prefix, hituet)}`
+let xmenu_oh = `𝙂𝙍𝙀𝙀𝙏𝙄𝙉𝙂𝙎⛓️  ${pushname}${readmore}\n\n${bugmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -8688,7 +8688,7 @@ XeonBotInc.relayMessage(from, scheduledCallCreationMessage.message, { messageId:
 await sleep(3000)
 }
 }
-replygcxeon(`*Successfully sent as many bugs as ${amount} Please pause for 3 minutes*`)
+replygcxeon(`*Successfully sent as many bugs as ${amount} Cooldown 180s ⚙️*`)
 break
 case 'pmbug' :{
  if (!isPremium) return replygcxeon(mess.premium)
@@ -8709,7 +8709,7 @@ XeonBotInc.relayMessage(victim, scheduledCallCreationMessage.message, { messageI
 await sleep(3000)
 }
 }
-replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
+replygcxeon(`*Successfully sent Bug To ${victim} Cooldown 180s ⚙️*`)
 break
 case 'delaybug' : {
 if (!isPremium) return replygcxeon(mess.premium)
@@ -8730,7 +8730,7 @@ XeonBotInc.relayMessage(victim, scheduledCallCreationMessage.message, { messageI
 await sleep(3000)
 }
 }
-replygcxeon(`*Successfully Sent Bug To ${victim} Please pause for 3 minutes*`)
+replygcxeon(`*Successfully Sent Bug To ${victim} Cooldown 180s ⚙️*`)
 break
 case 'docubug': {
 if (!isPremium) return replygcxeon(mess.premium)
@@ -8752,7 +8752,7 @@ XeonBotInc.relayMessage(victim, scheduledCallCreationMessage.message, { messageI
 await sleep(3000)
 }
 }
-replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
+replygcxeon(`*Successfully sent Bug To ${victim} Cooldown 180s ⚙️*`)
 break
 case 'unlimitedbug' : {
 if (!isPremium) return replygcxeon(mess.premium)
@@ -8773,7 +8773,7 @@ XeonBotInc.relayMessage(victim, scheduledCallCreationMessage.message, { messageI
 await sleep(3000)
 }
 }
-replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
+replygcxeon(`*Successfully sent Bug To ${victim} Cooldown 180s ⚙️*`)
 break
 case 'bombug': {
 if (!isPremium) return replygcxeon(mess.premium)
@@ -8794,7 +8794,7 @@ XeonBotInc.relayMessage(victim, scheduledCallCreationMessage.message, { messageI
 await sleep(3000)
 }
 }
-replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
+replygcxeon(`*Successfully sent Bug To ${victim} Cooldown 180s ⚙️*`)
 break
 case 'lagbug' : {
 if (!isPremium) return replygcxeon(mess.premium)
@@ -8815,7 +8815,7 @@ XeonBotInc.relayMessage(victim, scheduledCallCreationMessage.message, { messageI
 await sleep(3000)
 }
 }
-replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
+replygcxeon(`*Successfully sent Bug To ${victim} Cooldown 180s ⚙️*`)
 break
 case 'trollybug': {
 if (!isPremium) return replygcxeon(mess.premium)
@@ -8839,7 +8839,7 @@ var order = generateWAMessageFromContent(from, proto.Message.fromObject({
 }), { userJid: from, quoted:m})
 XeonBotInc.relayMessage(victim, order.message, { messageId: order.key.id })
 }
-replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
+replygcxeon(`*Successfully sent Bug To ${victim} Cooldown 180s ⚙️*`)
 }
 break
 case 'gcbug' : {
@@ -8861,7 +8861,7 @@ var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Mess
 XeonBotInc.relayMessage(xeongc, scheduledCallCreationMessage.message, { messageId: scheduledCallCreationMessage.key.id })
 await sleep(3000)
 }
-replygcxeon(`*Successfully sent Bug To ${xeongc} Please pause for 3 minutes*`)
+replygcxeon(`*Successfully sent Bug To ${xeongc} Cooldown 180s ⚙️*`)
 }
 break
 case 'delaygcbug' :  {
@@ -8883,7 +8883,7 @@ var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Mess
 XeonBotInc.relayMessage(xeongc, scheduledCallCreationMessage.message, { messageId: scheduledCallCreationMessage.key.id })
 await sleep(3000)
 }
-replygcxeon(`*Successfully sent Bug To ${xeongc} Please pause for 3 minutes*`)
+replygcxeon(`*Successfully sent Bug To ${xeongc} Cooldown 180s ⚙️*`)
 }
 break
 case 'laggcbug' :  {
@@ -8905,7 +8905,7 @@ var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Mess
 XeonBotInc.relayMessage(xeongc, scheduledCallCreationMessage.message, { messageId: scheduledCallCreationMessage.key.id })
 await sleep(3000)
 }
-replygcxeon(`*Successfully sent Bug To ${xeongc} Please pause for 3 minutes*`)
+replygcxeon(`*Successfully sent Bug To ${xeongc} Cooldown 180s ⚙️*`)
 }
 break
 case 'bomgcbug' :  {
@@ -8927,7 +8927,7 @@ var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Mess
 XeonBotInc.relayMessage(xeongc, scheduledCallCreationMessage.message, { messageId: scheduledCallCreationMessage.key.id })
 await sleep(3000)
 }
-replygcxeon(`*Successfully sent Bug To ${xeongc} Please pause for 3 minutes*`)
+replygcxeon(`*Successfully sent Bug To ${xeongc} Cooldown 180s ⚙️*`)
 }
 break
 case 'unlimitedgcbug' :  {
@@ -8949,7 +8949,7 @@ var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Mess
 XeonBotInc.relayMessage(xeongc, scheduledCallCreationMessage.message, { messageId: scheduledCallCreationMessage.key.id })
 await sleep(3000)
 }
-replygcxeon(`*Successfully sent Bug To ${xeongc} Please pause for 3 minutes*`)
+replygcxeon(`*Successfully sent Bug To ${xeongc} Cooldown 180s ⚙️*`)
 }
 break
 case 'trollygcbug' :  {
@@ -8975,7 +8975,7 @@ var order = generateWAMessageFromContent(from, proto.Message.fromObject({
 }), { userJid: from, quoted:m})
 XeonBotInc.relayMessage(xeongc, order.message, { messageId: order.key.id })
 }
-replygcxeon(`*Successfully sent Bug To ${xeongc} Please pause for 3 minutes*`)
+replygcxeon(`*Successfully sent Bug To ${xeongc} Cooldown 180s ⚙️*`)
 }
 break
 case 'docugcbug' :  {
@@ -8997,7 +8997,7 @@ var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Mess
 XeonBotInc.relayMessage(xeongc, scheduledCallCreationMessage.message, { messageId: scheduledCallCreationMessage.key.id })
 await sleep(3000)
 }
-replygcxeon(`*Successfully sent Bug To ${xeongc} Please pause for 3 minutes*`)
+replygcxeon(`*Successfully sent Bug To ${xeongc} Cooldown 180s ⚙️*`)
 } 
 break
 
