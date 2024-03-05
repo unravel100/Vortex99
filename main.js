@@ -223,15 +223,15 @@ XeonLft = await getBuffer(ppuser)
 	            const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 	            const xmembers = metadata.participants.length
                 xeonbody = `┌─❖
-│「 Greetings 」
-└┬❖ 「  @${xeonName.split("@")[0]}  」
-   │✑  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
-   │✑  ${metadata.subject}
-   │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
-   │✑ ${xmembers}th
-   │✑  𝗝𝗼𝗶𝗻𝗲𝗱 : 
-   │✑ ${xtime} ${xdate}
-   └───────────────┈ ⳹`
+│『 *Gʀᴇᴇᴛɪɴɢs  🍁* 』 
+└┬❖ 『  @${xeonName.split("@")[0]}  』
+   │➪  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
+   │➪  ${metadata.subject}
+   │➪  𝗠𝗲𝗺𝗯𝗲𝗿 : 
+   │➪ ${xmembers}th
+   │➪  𝗝𝗼𝗶𝗻𝗲𝗱 : 
+   │➪ ${xtime} ${xdate}
+   └───────────────┈─|| 』`
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
