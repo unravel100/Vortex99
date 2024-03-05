@@ -227,9 +227,9 @@ XeonLft = await getBuffer(ppuser)
 └┬❖ 『  @${xeonName.split("@")[0]}  』
    │➪  *Wᴇʟᴄᴏᴍᴇ ᴛᴏ* 
    │➪  ${metadata.subject}
-   │   *Mᴇᴍʙᴇʀ* : 
+   │   *Mᴇᴍʙᴇʀ :* 
    │➪ ${xmembers}th
-   │   *Jᴏɪɴᴇᴅ* : 
+   │   *Jᴏɪɴᴇᴅ :* 
    │➪ ${xtime} ${xdate}
    └───────────────┈─||`
 XeonBotInc.sendMessage(anu.id,
@@ -255,9 +255,9 @@ XeonBotInc.sendMessage(anu.id,
 └┬❖ 「 @${xeonName.split("@")[0]}  」
    │➪  *Lᴇғᴛ*
    │➪ ${metadata.subject}
-   │➪  *Mᴇᴍʙᴇʀ* : 
+   │➪  *Mᴇᴍʙᴇʀ :* 
    │➪ ${xeonmembers}th
-   │➪  *Tɪᴍᴇ* : 
+   │➪  *Tɪᴍᴇ :* 
    │➪  ${xeontime} ${xeondate}
    └───────────────┈─||`
 XeonBotInc.sendMessage(anu.id,
