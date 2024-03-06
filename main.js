@@ -226,11 +226,11 @@ XeonLft = await getBuffer(ppuser)
 │『 *Gʀᴇᴇᴛɪɴɢs 🍁* 』 
 └┬❖ 『  @${xeonName.split("@")[0]}  』
    │➪  *Wᴇʟᴄᴏᴍᴇ ᴛᴏ* 
-   │➪ ${metadata.subject}
-   │   *Mᴇᴍʙᴇʀ :* 
-   │➪ ${xmembers}th
-   │   *Jᴏɪɴᴇᴅ :* 
-   │➪ ${xtime} ${xdate}
+   │   ${metadata.subject}
+   │➪ *Mᴇᴍʙᴇʀ :* 
+   │   ${xmembers}th
+   │➪ *Jᴏɪɴᴇᴅ :* 
+   │   ${xtime} ${xdate}
    └───────────────┈─||`
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
@@ -254,11 +254,11 @@ XeonBotInc.sendMessage(anu.id,
 │『 *Gᴏᴏᴅʙʏᴇ..!! 🍁* 』
 └┬❖ 「 @${xeonName.split("@")[0]}  」
    │➪  *Lᴇғᴛ*
-   │  ${metadata.subject}
+   │   ${metadata.subject}
    │➪  *Mᴇᴍʙᴇʀ :* 
-   │  ${xeonmembers}th
+   │   ${xeonmembers}th
    │➪  *Tɪᴍᴇ :* 
-   │  ${xeontime} ${xeondate}
+   │   ${xeontime} ${xeondate}
    └───────────────┈─||`
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
