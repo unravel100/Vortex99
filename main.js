@@ -225,12 +225,12 @@ XeonLft = await getBuffer(ppuser)
                 xeonbody = `┌─❖
 │『 *Gʀᴇᴇᴛɪɴɢs 🍁* 』 
 └┬❖ 『  @${xeonName.split("@")[0]}  』
-   │➪  *Wᴇʟᴄᴏᴍᴇ ᴛᴏ* 
-   │   ${metadata.subject}
-   │➪ *Mᴇᴍʙᴇʀ :* 
-   │   ${xmembers}th
-   │➪ *Jᴏɪɴᴇᴅ :* 
-   │   ${xtime} ${xdate}
+   │➪   *Wᴇʟᴄᴏᴍᴇ ᴛᴏ* 
+   │     ${metadata.subject}
+   │➪   *Mᴇᴍʙᴇʀ :* 
+   │     ${xmembers}th
+   │➪   *Jᴏɪɴᴇᴅ :* 
+   │     ${xtime} ${xdate}
    └───────────────┈─||`
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
@@ -252,13 +252,13 @@ XeonBotInc.sendMessage(anu.id,
                     const xeonmembers = metadata.participants.length
                     xeonbody = `┌─❖
 │『 *Gᴏᴏᴅʙʏᴇ..!! 🍁* 』
-└┬❖ 「 @${xeonName.split("@")[0]}  」
-   │➪  *Lᴇғᴛ*
-   │   ${metadata.subject}
-   │➪  *Mᴇᴍʙᴇʀ :* 
-   │   ${xeonmembers}th
-   │➪  *Tɪᴍᴇ :* 
-   │   ${xeontime} ${xeondate}
+└┬❖ 『 @${xeonName.split("@")[0]} 』
+   │➪   *Lᴇғᴛ*
+   │     ${metadata.subject}
+   │➪   *Mᴇᴍʙᴇʀ :* 
+   │     ${xeonmembers}th
+   │➪   *Tɪᴍᴇ :* 
+   │     ${xeontime} ${xeondate}
    └───────────────┈─||`
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
