@@ -5,7 +5,7 @@
 <br>
 
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=bankgothic-md-bt&size=50&pause=1000&color=AF38EB&center=true&width=900&height=100&lines=WㅤHㅤIㅤTㅤEㅤ%20VㅤOㅤRㅤTㅤEㅤX;%20MultiDevice%20WhatsApp%20Bot;%20Developed%20By%20WㅤHㅤIㅤTㅤEㅤ%20ㅤ4ㅤ4ㅤ4ㅤ?ㅤ?)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=bankgothic-md-bt&size=50&pause=1000&color=AF38EB&center=true&width=900&height=100&lines=WㅤHㅤIㅤTㅤEㅤ%20VㅤOㅤRㅤTㅤEㅤX;%20MultiDevice%20WhatsApp%20Bot;%20Developed%20By%20WHITE%20ㅤ444ㅤ?ㅤ?)
 <p align="center">
   
 >V O R T E X 9 9 is based on :
