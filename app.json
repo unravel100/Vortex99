@@ -1,0 +1,90 @@
+{
+  "name": "Vᴏʀᴛᴇx99",
+  "version": "4.4.4",
+  "description": "Vortex99, A modified modular advanced wabot",
+  "logo": "https://telegra.ph/file/c597249bb5f1107ead26b.jpg",
+  "keywords": ["whatsapp", "bot", "md", "multi-device", "Vortex", "W H I T E", "wabot", "termux-bot", "sc-bot"],
+  "repository": "https://github.com/Wota777FF/Vortex99",
+  "stack": "container",
+  "env": {
+    "SUDO": {
+      "description": "Owner Number",
+      "required": true,
+      "value": "918360234087"
+    },
+    "SUDO_NAME": {
+      "description": "Owner Name",
+      "required": true,
+      "value": "Wʜɪᴛᴇ 4 4 4 ? ?"
+    },
+     "HKEY": {
+      "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
+      "required": true,
+      "value": ""
+    },
+     "HAPP": {
+      "description": "Put the Heroku app name, same as entered above",
+      "required": true,
+      "value": ""
+    },
+    "PREFIX": {
+      "description": "Set Prefix ",
+      "required": true,
+      "value": "."
+    },
+    "BOT_NAME": {
+      "description": "Set Bot Name ",
+      "required": false,
+      "value": "Vᴏʀᴛᴇx99"
+    },
+     "PACK_NAME": {
+      "description": "Sticker Pack Name",
+      "required": false,
+      "value": "Pᴏᴡᴇʀᴇᴅ ʙʏ"
+     },
+     "AUTHER_NAME": {
+      "description": "Pack Auther Name",
+      "required": false,
+      "value": "𝗩𝗼𝗿𝘁𝗲𝘅99"
+     },
+     "GL_VIP": {
+      "description": "Enter Premium Members Numbers [ Each Saperated By Comma ]",
+      "required": false,
+      "value": "918360234087,917888755628"
+     },
+    "WELCOME_MSG": {
+      "description": "Welcome Message True/False",
+      "required": false,
+      "value": "true"
+     },
+    "MENU_DESIGN": {
+      "description": "Choose Any Style v1 => v8",
+      "required": false,
+      "value": "v2"
+     },
+    "AUTO_STATUS_SEEN": {
+      "description": "Auto Status Seen True/False",
+      "required": false,
+      "value": "true"
+     },
+     "AUTO_BLOCK": {
+      "description": "Set A Country Code to be PM-blocked",
+      "required": false,
+      "value": "234"
+     }
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
