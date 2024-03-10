@@ -18,7 +18,7 @@
 [![VORTEX](https://telegra.ph/file/c597249bb5f1107ead26b.jpg)](https://youtube.com/@WHITE444_YT)
 
 <p align="center">
-<a href="https://github.com/Wota777FF"><img title="Author" src="https://img.shields.io/badge/CREATOR-SALMAN SER-black.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/Wota777FF"><img title="Author" src="https://img.shields.io/badge/CREATOR-W H I T E F F-black.svg?style=for-the-badge&logo=github"></a>
 
 ### ℹ️ **About VORTEX**
 WHITE-VORTEX is a Cool MultiDevice WhatsApp bot developed by [W H I T E 4 4 4](https://github.com/Wota777FF). It offers a wide range of extraordinary features, making it an advanced and user-friendly bot for various purposes.
