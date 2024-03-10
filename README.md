@@ -47,7 +47,7 @@ If you find V O R T E X 9 9 helpful, consider giving it a star ⭐ to show your 
 | Hidden NSFW Commands             | Access a range of NSFW commands hidden in the bot       | ✅           | 4.0        |
 | Logo Commands                    | Generate logos using specialized commands               | ✅           | 4.0        |
 | Anime Commands                   | Explore anime-related commands and features             | ✅           | 4.0        |
-| Bot Cantrol Commands             | Cantrol Bot Without Opening Deploy Platform             | ✅           | 4.0        |
+| Bot Control Commands             | Control Bot Without Opening Deploy Platform             | ✅           | 4.0        |
 | Various Games                    | Enjoy a variety of games within the bot                 | ✅           | 4.0        |
 | Audio/Video Editor Commands      | Edit audio and video files with bot commands            | ✅           | 4.0        |
 
