@@ -80,7 +80,7 @@ If you find V O R T E X 9 9 helpful, consider giving it a star ⭐ to show your 
 
 
 ## 💠 `OWNER` 
-<a href="https://github.com/Wota777FF"><img src="https://telegra.ph/file/0e8d2dfc5919b6e6c522c.png" width="250" height="250" alt="W H I T E 4 4 4 ? ?"/></a>
+<a href="https://github.com/Wota777FF"><img src="https://telegra.ph/file/167104fecf9873395838c.jpg" width="250" height="250" alt="W H I T E 4 4 4 ? ?"/></a>
   
 **V O R T E X 9 9** - By `W H I T E 4 4 4 ? ?`
 <br>
