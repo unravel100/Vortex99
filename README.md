@@ -117,8 +117,8 @@ Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 * Any text editor
 ## `Clone Repo & Installation dependencies`
 ```bash
-git clone https://github.com/<your gitHub Username>/XLICON-V3-MD.git
-cd XLICON-V3-MD
+git clone https://github.com/<your gitHub Username>/Vortex99.git
+cd Vortex99
 
 npm start
 ```
@@ -134,8 +134,8 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/<your gitHub Username>/XLICON-V3-MD
-cd XLICON-V3-MD
+git clone https://github.com/<your gitHub Username>/Vortex99
+cd Vortex99
 yarn install
 npm start
 ```
@@ -147,8 +147,8 @@ apt apt install ffmpeg
 apt apt install libwebp 
 apt apt install imagrmagick
 apt install bash
-git clone https://github.com/<your gitHub Username>/XLICON-V3-MD
-cd XLICON-V3-MD
+git clone https://github.com/<your gitHub Username>/Vortex99
+cd Vortex99
 npm start
 ```
 ## `For 24/7 Activation (Termux)`
