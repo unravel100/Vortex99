@@ -6627,23 +6627,23 @@ break
    │✑  Type The *PROMPT*
    │✑  To access *COMMANDS*
 ┌└─────────────┈ ⳹
-│${xprefix}allmenu
-│${xprefix}downloadmenu
-│${xprefix}funmenu
-│${xprefix}aimenu
-│${xprefix}groupmenu
-│${xprefix}ownermenu
-│${xprefix}photooxymenu
-│${xprefix}ephoto360menu
-│${xprefix}animemenu
-│${xprefix}nsfwmenu
-│${xprefix}randomphotomenu
-│${xprefix}randomvideomenu
-│${xprefix}stickermenu
-│${xprefix}databasemenu
-│${xprefix}stalkermenu
-│${xprefix}bugmenu
-│${xprefix}othermenu
+│${xprefix}Aʟʟᴍᴇɴᴜ
+│${xprefix}Dᴏᴡɴʟᴏᴀᴅᴍᴇɴᴜ
+│${xprefix}Fᴜɴᴍᴇɴᴜ
+│${xprefix}Aɪᴍᴇɴᴜ
+│${xprefix}Gʀᴏᴜᴘᴍᴇɴᴜ
+│${xprefix}Oᴡɴᴇʀᴍᴇɴᴜ
+│${xprefix}Pʜᴏᴛᴏᴏxʏᴍᴇɴᴜ
+│${xprefix}Eᴘʜᴏᴛᴏ360ᴍᴇɴᴜ
+│${xprefix}Aɴɪᴍᴇᴍᴇɴᴜ
+│${xprefix}Nsғᴡᴍᴇɴᴜ
+│${xprefix}Rᴀɴᴅᴏᴍᴘʜᴏᴛᴏᴍᴇɴᴜ
+│${xprefix}Rᴀɴᴅᴏᴍᴠɪᴅᴇᴏᴍᴇɴᴜ
+│${xprefix}Sᴛɪᴄᴋᴇʀᴍᴇɴᴜ
+│${xprefix}Dᴀᴛᴀʙᴀsᴇᴍᴇɴᴜ
+│${xprefix}Sᴛᴀʟᴋᴇʀᴍᴇɴᴜ
+│${xprefix}Bᴜɢᴍᴇɴᴜ
+│${xprefix}Oᴛʜᴇʀᴍᴇɴᴜ
 └─────────────────┈ ⳹`
 if (typemenu === 'v8') {
                     XeonBotInc.sendMessage(m.chat, {
