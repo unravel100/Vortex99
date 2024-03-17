@@ -1735,7 +1735,7 @@ if (!isAdmins && !XeonTheCreator) return XeonStickAdmin()
             case 'out':
                 if (!XeonTheCreator) return XeonStickOwner()
                 if (!m.isGroup) return XeonStickGroup()
-                replygcxeon('Bye Everyone 🥺')
+                replygcxeon('*Adios ⚙️*')
                 await XeonBotInc.groupLeave(m.chat)
             break
             case 'bc':
@@ -1887,7 +1887,7 @@ var mems = []
 members.map(async adm => {
 mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
 })
-XeonBotInc.sendMessage(from, {text: `\`\`\`「 ⚠️Warning⚠️ 」\`\`\`\n\nNsfw(not safe for work) feature has been enabled in this group, which means one can access sexual graphics from the bot!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+XeonBotInc.sendMessage(from, {text: `\`\`\`『 ⚙️ Warning ⚠️ 』\`\`\`\n\nSexual graphics may be accessed`, contextInfo: { mentionedJid : mems }}, {quoted:m})
 } else if (args[0] === "off") {
 if (!AntiNsfw) return replygcxeon('Already deactivated')
 let off = ntnsfw.indexOf(from)
