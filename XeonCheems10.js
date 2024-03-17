@@ -2500,7 +2500,7 @@ if (!XeonTheCreator) return XeonStickOwner()
                 if (!isAdmins && !isGroupOwner && !XeonTheCreator) return XeonStickAdmin()
                 if (!isBotAdmins) return XeonStickBotAdmin()
                 let me = m.sender
-                let teks = `╚»˙·٠${themeemoji}●♥ Tag All ♥●${themeemoji}٠·˙«╝\n😶 *Tagger :*  @${me.split('@')[0]}\n🌿 *Message : ${q ? q : 'no message'}*\n\n`
+                let teks = `╚»˙·٠${themeemoji}Tᴀɢᴀʟʟ${themeemoji}٠·˙«╝\n\n🌿 *Mᴇssᴇɢᴇ : ${q ? q : 'ɴᴜʟʟ'}*\n\n`
                 for (let mem of participants) {
                 teks += `${themeemoji} @${mem.id.split('@')[0]}\n`
                 }
@@ -2911,7 +2911,7 @@ break
             }
             break
             case 'runtime':
-                let pinga = `Bots Have Been Running For ${runtime(process.uptime())}`
+                let pinga = `*Rᴜɴᴛɪᴍᴇ*   ${runtime(process.uptime())}`
                 XeonBotInc.sendMessage(m.chat, {
                     text: pinga,
                     contextInfo: {
@@ -4230,7 +4230,7 @@ case 'tiktok':{
 if (!q) return replygcxeon( `Example : ${prefix + command} link`)
 if (!q.includes('tiktok')) return replygcxeon(`Link Invalid!!`)
 require('./lib/tiktok').Tiktok(q).then( data => {
-XeonBotInc.sendMessage(m.chat, { caption: `Here you go!`, video: { url: data.watermark }}, {quoted:m})
+XeonBotInc.sendMessage(m.chat, { caption: `*sᴜᴄᴄᴇᴇᴅ*`, video: { url: data.watermark }}, {quoted:m})
 })
 }
 break
@@ -4264,17 +4264,17 @@ if (!text) return replygcxeon('What location?')
                 `https://api.openweathermap.org/data/2.5/weather?q=${text}&units=metric&appid=060a6bcfa19809c2cd4d97a212b19273&language=en`
             );
             let textw = ""
-            textw += `*🗺️Weather of  ${text}*\n\n`
-            textw += `*Weather:-* ${wdata.data.weather[0].main}\n`
-            textw += `*Description:-* ${wdata.data.weather[0].description}\n`
-            textw += `*Avg Temp:-* ${wdata.data.main.temp}\n`
-            textw += `*Feels Like:-* ${wdata.data.main.feels_like}\n`
-            textw += `*Pressure:-* ${wdata.data.main.pressure}\n`
-            textw += `*Humidity:-* ${wdata.data.main.humidity}\n`
-            textw += `*Humidity:-* ${wdata.data.wind.speed}\n`
-            textw += `*Latitude:-* ${wdata.data.coord.lat}\n`
-            textw += `*Longitude:-* ${wdata.data.coord.lon}\n`
-            textw += `*Country:-* ${wdata.data.sys.country}\n`
+            textw += `*Wᴇᴀᴛʜᴇʀ ʀᴇᴘᴏʀᴛ ${text}*\n\n`
+            textw += `*Wᴀᴇᴛʜᴇʀ*       ${wdata.data.weather[0].main}\n`
+            textw += `*Dᴇsᴄ*          ${wdata.data.weather[0].description}\n`
+            textw += `*Aᴠɢ Tᴇᴍᴘ*      ${wdata.data.main.temp}\n`
+            textw += `*Fᴇᴇʟs ʟɪᴋᴇ*    ${wdata.data.main.feels_like}\n`
+            textw += `*Pʀᴇssᴜʀᴇ*    ${wdata.data.main.pressure}\n`
+            textw += `*Hᴜᴍɪᴅɪᴛʏ*    ${wdata.data.main.humidity}\n`
+            textw += `*Wɪɴᴅ*    ${wdata.data.wind.speed}\n`
+            textw += `*Lᴀᴛɪᴛᴜᴅᴇ*    ${wdata.data.coord.lat}\n`
+            textw += `*Lᴏɴɢɪᴛᴜᴅᴇ*   ${wdata.data.coord.lon}\n`
+            textw += `*Cᴏᴜɴᴛʀʏ*     ${wdata.data.sys.country}\n`
 
            XeonBotInc.sendMessage(
                 m.chat, {
